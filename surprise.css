@@ -1,0 +1,158 @@
+body
+{
+    background-image: url(images/streamers-g6e4835ceb_1280-removebg-preview.png);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-bottom: 100px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 2%;
+    background-color: #343F4F;
+    color: white;
+
+}
+@keyframes sliding {
+    from{
+        color: rgb(226, 168, 43);
+    }
+    to{
+        color: rgb(226, 43, 43);
+    }
+}
+#head
+{
+    font-size: 110px;
+    font-weight: 700;
+    padding-top: 300px;
+}  
+.date
+{
+    color: rgb(137, 43, 226);
+    animation: sliding 1s ease-in-out .5s infinite alternate;
+}
+
+.fst
+{
+    width: 40%;
+    font-size: 40px;
+    padding-left: 400px;
+
+}
+.fst h2
+{
+    background-image:linear-gradient(crimson,orangered);
+    border-radius: 15px;
+    color: white;
+}
+.fst h2:hover
+{
+    transform: scale(1.08);
+    z-index: .5;
+    font-weight: bolder;
+    align-content: center;
+}
+.fst img
+{
+    width: 90%;
+    align-content: center;
+    padding-top: 150px;
+}
+.clr
+{
+    color: crimson;
+}
+.flexible
+{
+    display: flex;
+    padding-top: 150px;
+}
+.sec 
+{
+    padding-left: 50px;
+}
+.third
+{
+    padding-left: 70px;
+
+}
+#head-two
+{
+    font-size: 50px;
+    padding-top: 150px;
+    animation: bounce 3s ease-in-out 1s infinite alternate;
+}
+#space
+{
+    padding-top: 100px;
+}
+.four
+{
+    padding-left: 50px;
+}
+.four img
+{ padding-left: 150px;
+}
+.hover :hover
+{
+    transform: scale(1.08);
+    z-index: 1; 
+}
+#space-two
+{
+    padding-top: 650px;
+}
+.button
+{
+    background-image: linear-gradient(crimson,orangered);
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 40px;
+}
+.button:hover
+{
+    background-color: rgb(255, 255, 255); 
+     transform: scale(1.08);
+    z-index: .5;
+    font-weight: bolder;
+    align-content: center;
+}
+p
+{
+    font-weight: 30px;
+    font-size: 20px;
+}
+@keyframes bounce
+{
+    0%
+    {
+        transform: translateY(-70%);
+        
+    }
+    5% 
+    {
+        transform: translateY(-60%);
+    
+    }
+    15%
+
+    {
+      transform: translateY(0);
+      padding-bottom: 5px;
+    }
+    40%
+    {
+        transform: translateY(0%);
+        padding-bottom: 6px;
+    }
+    50%
+    {
+        transform: translateY(-30%);
+    }
+    100%
+    {
+        transform: translateY(0);
+        padding-bottom: 9px;
+    }
+
+}
