@@ -1,0 +1,64 @@
+body
+{
+    font-family: 'Poppins', sans-serif;
+
+padding-left: 2%;
+background-color: #343F4F;
+color: white;
+}
+@keyframes sliding {
+    from{
+        color: rgb(226, 168, 43);
+    }
+    to{
+        color: rgb(226, 43, 43);
+        }
+    }
+.date
+{
+    color: rgb(137, 43, 226);
+    animation: sliding 1s ease-in-out .5s infinite alternate;
+}
+h1
+{
+    font-size: 90px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.flexible
+{
+    display: flex;
+}
+img
+{
+    width: 30%;
+    height: 40%;
+    margin-left: 15px;
+    border-radius: 15px;
+    padding-top: 5px;
+}
+img:hover
+{
+    transform: scale(1.04);
+    z-index: .5;
+}
+a
+{
+background-image: linear-gradient(crimson,orangered);
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 30px;
+}
+a:hover
+{
+    background-color: rgb(255, 255, 255); 
+     transform: scale(1.08);
+    z-index: .5;
+    font-weight: bolder;
+    align-content: center;
+}
+p
+{
+    padding-top: 30px;
+}
