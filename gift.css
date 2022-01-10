@@ -1,0 +1,40 @@
+body
+{
+     font-family: 'Poppins', sans-serif;
+padding-left: 2%;
+background-color: #343F4F;
+color: white;
+}
+p img
+{
+ width: 20%;
+ border-radius: 15px;
+ padding-bottom: 0;
+
+}
+h2
+{
+    font-size: 40px;
+    font-weight: 900;
+    padding: 0;
+}
+@keyframes sliding {
+    from{
+        color: rgb(226, 168, 43);
+    }
+    to{
+        color: rgb(226, 43, 43);
+        }
+    }
+    .text
+    {
+        color: rgb(137, 43, 226);
+        animation: sliding 1s ease-in-out .5s infinite alternate;
+    }
+    p
+    {
+        background-image: url(images/confetti-g1adae7ca7_1920.png);
+        background-position: center;
+        background-size: cover;
+    }
+    
